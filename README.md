@@ -21,4 +21,7 @@
 * What steps did you take in your attempts to increase model performance?
   * Try to add another layer and join 'EIN' and 'NAME' back but it does not work.
 # Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
-  * Although the accuarcy is only 72%, it did not reach 75%. But I still think it is a good model. May be we can find some more feature which might increase accuarcy. Even we got lots of feature columns becasue of dummy variables, it does not make model more comprehensive.
+  * In my first model, I use to two layers, first is 80, and second is 30. And I reached the accuracy: 0.7243148684501648
+  * In second model, I increase the layers and change the unit amount. The accuracy reached 0.7248979806900024
+  * Third model was applied with new activation function. However, The accuracy is 0.7254810333251953. Tbere was no big change for that.
+  * Finally, I export the third modle and save it as 'charity_data.h5'
